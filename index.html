@@ -1,1 +1,103 @@
-abc
+<!-- 課題の内容 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>training_2</title>
+  </head>
+  <body>
+    <main>
+      <div class="contents">
+        <div class="contents_menu">
+          <h2 class="menu_title">コース一覧</h2>
+          <table class="menu">
+            <tr>
+              <th class="menu_head">コース</th>
+              <th class="menu_head">A</th>
+              <th class="menu_head">B</th>
+              <th class="menu_head">C</th>
+            </tr>
+            <tr>
+              <th class="menu_head">前菜</th>
+              <td class="menu_name">アヒージョ</td>
+              <td class="menu_name">アクアパッツァ</td>
+              <td class="menu_name">ポトフ</td>
+            </tr>
+            <tr>
+              <th class="menu_head">主菜</th>
+              <td class="menu_name">パエリア</td>
+              <td class="menu_name">ボロネーゼ</td>
+              <td class="menu_name">フォアグラ</td>
+            </tr>
+            <tr>
+              <th class="menu_head">デザート</th>
+              <td class="menu_name">フラン</td>
+              <td class="menu_name">ティラミス</td>
+              <td class="menu_name">カヌレ</td>
+            </tr>
+          </table>
+        </div>
+        <div class="contents_reserve">
+          <h2 class="menu_title">Reservation</h2>
+          <div class="form_contents">
+            <form action="#" method="post">
+              <label for="name">名前</label>
+              <div class="name_form">
+                <input type="name" name="name" placeholder="name" id="name" />
+              </div>
+              <label for="email">メールアドレス </label>
+              <div class="email_form">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Mail Address"
+                  id="email"
+                />
+              </div>
+              <lavel for="corse_select">コース </lavel>
+              <div class="menu_radio">
+                <input type="radio" name="menu" id="corse_select" />A
+                <input type="radio" name="menu" id="corse_select" />B
+                <input type="radio" name="menu" id="corse_select" />C
+              </div>
+              <label for="select">支店名</label>
+              <div class="shop_select">
+                <select name="shop">
+                  <option value="spain">スペイン</option>
+                  <option value="italia">イタリア</option>
+                  <option value="france">フランス</option>
+                </select>
+              </div>
+              <lavel for="count">人数 </lavel>
+              <div class="count_number">
+                <input type="text" name="count" id="count" />
+              </div>
+              <label for="comment">コメント </label>
+              <div class="comment_aera">
+                <textarea
+                  class="comment_text"
+                  name="comment"
+                  placeholder="コメント"
+                  id="comment"
+                ></textarea>
+              </div>
+              <div class="agree_checkbox">
+                <label for="agree"
+                  >同意する
+                  <input type="checkbox" name="agree" id="agree" />
+                </label>
+              </div>
+              <div class="submit_btn">
+                <input type="submit" name="submit" id="submit" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

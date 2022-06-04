@@ -1,0 +1,55 @@
+.contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contents_menu {
+  margin: 0 auto;
+  width: 425px;
+}
+.contents_reserve {
+  margin: 0 auto;
+  width: 425px;
+}
+.menu_title {
+  font-size: 32px;
+}
+.submit_btn {
+  text-align: center;
+}
+.menu {
+  border-collapse: collapse;
+  border: solid 2px;
+}
+.menu_head {
+  border: solid 1px;
+}
+.menu_name {
+  border: solid 1px;
+}
+.name_form {
+  margin-bottom: 15px;
+}
+.email_form {
+  margin-bottom: 15px;
+}
+.menu_radio {
+  margin-bottom: 15px;
+}
+.shop_select {
+  margin-bottom: 15px;
+}
+.count_number {
+  margin-bottom: 15px;
+}
+.comment_aera {
+  margin-bottom: 15px;
+}
+.comment_text {
+  resize: none;
+  width: 300px;
+  height: 150px;
+}
+.agree_checkbox {
+  margin-bottom: 15px;
+}
