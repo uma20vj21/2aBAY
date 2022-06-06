@@ -1,6 +1,6 @@
 <!-- 課題の内容 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,30 +15,34 @@
         <div class="contents_menu">
           <h2 class="menu_title">コース一覧</h2>
           <table class="menu">
-            <tr>
-              <th class="menu_head">コース</th>
-              <th class="menu_head">A</th>
-              <th class="menu_head">B</th>
-              <th class="menu_head">C</th>
-            </tr>
-            <tr>
-              <th class="menu_head">前菜</th>
-              <td class="menu_name">アヒージョ</td>
-              <td class="menu_name">アクアパッツァ</td>
-              <td class="menu_name">ポトフ</td>
-            </tr>
-            <tr>
-              <th class="menu_head">主菜</th>
-              <td class="menu_name">パエリア</td>
-              <td class="menu_name">ボロネーゼ</td>
-              <td class="menu_name">フォアグラ</td>
-            </tr>
-            <tr>
-              <th class="menu_head">デザート</th>
-              <td class="menu_name">フラン</td>
-              <td class="menu_name">ティラミス</td>
-              <td class="menu_name">カヌレ</td>
-            </tr>
+            <thead>
+              <tr>
+                <th class="menu_head">コース</th>
+                <th class="menu_head">A</th>
+                <th class="menu_head">B</th>
+                <th class="menu_head">C</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="menu_head">前菜</th>
+                <td class="menu_name">アヒージョ</td>
+                <td class="menu_name">アクアパッツァ</td>
+                <td class="menu_name">ポトフ</td>
+              </tr>
+              <tr>
+                <th class="menu_head">主菜</th>
+                <td class="menu_name">パエリア</td>
+                <td class="menu_name">ボロネーゼ</td>
+                <td class="menu_name">フォアグラ</td>
+              </tr>
+              <tr>
+                <th class="menu_head">デザート</th>
+                <td class="menu_name">フラン</td>
+                <td class="menu_name">ティラミス</td>
+                <td class="menu_name">カヌレ</td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <div class="contents_reserve">
@@ -58,7 +62,7 @@
                   id="email"
                 />
               </div>
-              <lavel for="corse_select">コース </lavel>
+              <label for="corse_select">コース </label>
               <div class="menu_radio">
                 <input type="radio" name="menu" id="corse_select" />A
                 <input type="radio" name="menu" id="corse_select" />B
@@ -72,7 +76,7 @@
                   <option value="france">フランス</option>
                 </select>
               </div>
-              <lavel for="count">人数 </lavel>
+              <label for="count">人数 </label>
               <div class="count_number">
                 <input type="text" name="count" id="count" />
               </div>
